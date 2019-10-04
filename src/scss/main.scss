@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+  background-image: url('/img/tile.png');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +23,7 @@ body {
 .stage {
   width: 1020px;
   height: 510px;
-  background-image: url('/img/tile.png');
+  // background-image: url('/img/tile.png');
   position: relative;
 }
 
@@ -45,6 +46,10 @@ body {
 
   &--apple {
     background-image: url('/img/apple.png');
+  }
+
+  .apple {
+    background-image: url('/img/bomb.png');
   }
 
   &--bomb {
